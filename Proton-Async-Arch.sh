@@ -31,7 +31,7 @@ cp -r Proton-Async-1.7-Stable Proton-Async-1.10-Experimental ~/.steam/root/compa
 cd ..
 rm -fr Proton-Async
 
-#######################################################
+#########################################################
 
 #Baixa e Instala o YAY (Ferramenta AUR)
 
@@ -43,12 +43,12 @@ rm -fr yay
 
 ########################################################
 
-#Baixa e Instala o LatencyFlex e suas Dependências (Através do YAY)
+#Baixa e Instala o LatencyFlex e suas Dependências (Através do AUR)
 
 yay -S latencyflex-git --noconfirm
 
 
-
+########################################################
 
 #Cria e edita o dxvk.conf
 
@@ -72,7 +72,7 @@ done
 
 ##############################################################
 
-#Adiciona os parâmetros ao arquivo Environment para que se torne o padrão global do sistema
+#Define os parâmetros do DXVK para que funcionem em qualquer jogo
 
 
 file=/etc/environment
